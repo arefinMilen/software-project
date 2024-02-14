@@ -101,7 +101,7 @@
   }
   .nav__list:hover {
     text-decoration: overline;
-    color: black;
+    color: yellow;
   }
   .nav__link {
     color: white;
@@ -114,7 +114,7 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    border: white 1px solid;
+    border: white 3px solid;
     filter: saturate(0);
     transition: var(--transition);
   }
@@ -151,19 +151,19 @@
      background-image:url(/ECOMMERCE.PROJECT/images/product1.jpg);
    }
    20%{
-     background-image:url(/ECOMMERCE.PROJECT/images/product2.jpg) ;
+     background-image:url(/ECOMMERCE.PROJECT/images/product2.png) ;
    }
    40%{
-     background-image:url(/ECOMMERCE.PROJECT/images/product3.jpg) ;
+     background-image:url(/ECOMMERCE.PROJECT/images/product13.jpg) ;
    }
    60%{
-     background-image:url(/ECOMMERCE.PROJECT/images/product4.jpg) ;
+     background-image:url(/ECOMMERCE.PROJECT/images/product10.jpg) ;
    }
    80%{
-     background-image:url(/ECOMMERCE.PROJECT/images/product5.jpg) ;
+     background-image:url(/ECOMMERCE.PROJECT/images/product14.jpg) ;
    }
    100%{
-     background-image:url(/ECOMMERCE.PROJECT/images/product6.jpg) ;
+     background-image:url(/ECOMMERCE.PROJECT/images/product7.jpg) ;
    }
  }  
    
@@ -379,7 +379,9 @@
     width: 45rem;
     height: 500px;
     padding: 40px;
+   
   }
+  
   .form {
     flex: 1;
     display: flex;
